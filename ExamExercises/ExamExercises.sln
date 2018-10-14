@@ -9,28 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StadiumIncomeEXAM", "Stadiu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripToWorldCupEXAM", "TripToWorldCupEXAM\TripToWorldCupEXAM.csproj", "{A0C10C6B-6C24-4D80-92A4-B3E3F3CB185B}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FirstWebAplication", "..\..\..\..\..\Desktop\New folder (3)\FirstWebAplication\", "{56812489-6DDC-4167-BCB1-215588469AB8}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_64155"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Desktop\New folder (3)\FirstWebAplication\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64155\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_64155"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Desktop\New folder (3)\FirstWebAplication\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64155\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "64155"
-		SlnRelativePath = "..\..\..\..\..\Desktop\New folder (3)\FirstWebAplication\"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstDesktopApp", "MyFirstDesktopApp\MyFirstDesktopApp.csproj", "{B303F989-7559-47DA-AF17-6112CBCEE97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstDesktopApp", "..\..\..\..\..\Desktop\New folder (3)\MyFirstDesktopApp\MyFirstDesktopApp.csproj", "{B303F989-7559-47DA-AF17-6112CBCEE97A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWebAplication", "FirstWebAplication\FirstWebAplication.csproj", "{5FF7C5FB-1FEE-4472-A6EC-14D7341773CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,14 +31,14 @@ Global
 		{A0C10C6B-6C24-4D80-92A4-B3E3F3CB185B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0C10C6B-6C24-4D80-92A4-B3E3F3CB185B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0C10C6B-6C24-4D80-92A4-B3E3F3CB185B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{56812489-6DDC-4167-BCB1-215588469AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56812489-6DDC-4167-BCB1-215588469AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56812489-6DDC-4167-BCB1-215588469AB8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{56812489-6DDC-4167-BCB1-215588469AB8}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{B303F989-7559-47DA-AF17-6112CBCEE97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B303F989-7559-47DA-AF17-6112CBCEE97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B303F989-7559-47DA-AF17-6112CBCEE97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B303F989-7559-47DA-AF17-6112CBCEE97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF7C5FB-1FEE-4472-A6EC-14D7341773CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF7C5FB-1FEE-4472-A6EC-14D7341773CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF7C5FB-1FEE-4472-A6EC-14D7341773CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF7C5FB-1FEE-4472-A6EC-14D7341773CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
