@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapezoid-Area", "Trapezoid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle-Area", "Triangle-Area\Triangle-Area.csproj", "{F68CB0EE-0651-4513-993C-4039BE14712F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USD-BGN", "USD-BGN\USD-BGN.csproj", "{D3F2DC0E-5306-4D65-B9EB-0CCE5CDB4E6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{F68CB0EE-0651-4513-993C-4039BE14712F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F68CB0EE-0651-4513-993C-4039BE14712F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F68CB0EE-0651-4513-993C-4039BE14712F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F2DC0E-5306-4D65-B9EB-0CCE5CDB4E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F2DC0E-5306-4D65-B9EB-0CCE5CDB4E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F2DC0E-5306-4D65-B9EB-0CCE5CDB4E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F2DC0E-5306-4D65-B9EB-0CCE5CDB4E6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
