@@ -18,6 +18,7 @@ namespace FirstWebAplication.Controllers
 
         public ActionResult Index()
         {
+
             return View();
         }
 

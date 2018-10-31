@@ -13,7 +13,7 @@ namespace FruitShop
             string fruit = Console.ReadLine();
             string dayOfWeek = Console.ReadLine();
             double quantity = double.Parse(Console.ReadLine());
-            double price = -1.0;
+            
 
             if (dayOfWeek == "Monday" || dayOfWeek == "Tuesday" || dayOfWeek == "Wednesday" || dayOfWeek == "Thursday" || dayOfWeek == "Friday")
             {
