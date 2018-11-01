@@ -12,14 +12,16 @@ namespace FirstWebAplication.Controllers
         public ActionResult Index()
         {
 
-
+           
             List<string> list = new List<string>();
             list.Add("Dido");
             list.Add("Marty");
             list.Add("Hello");
             ViewBag.name = list;
 
+
             return View();
         }
+
     }
 }
