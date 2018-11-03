@@ -18,8 +18,6 @@ namespace FirstWebAplication.Controllers
             list.Add("Marty");
             list.Add("Hello");
             ViewBag.name = list;
-
-
             return View();
         }
 
