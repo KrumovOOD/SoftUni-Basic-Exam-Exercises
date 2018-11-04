@@ -1,0 +1,40 @@
+﻿@model  List<FirstWebAplication.Models.EmployeeFirstTest>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<table class="table table-striped" style="width:60%">
+
+    <tr>
+        <th> ID </th>
+        <th> Name </th>
+        <th> Department </th>
+        <th> FiredEmployees </th>
+    </tr>
+
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.EmployeeID</td>
+                    <td>@item.Name</td>
+                    <td>@item.DepartmentID</td>
+                </tr>
+            }
+        }
+
+
+
+    </tbody>
+
+
+
+
+
+</table>

@@ -1,0 +1,28 @@
+﻿@model  FirstWebAplication.Model.EmployeeViewModel
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<div class="container" style="width:60%;margin-top:2%">
+
+    @if (Model != null)
+    {
+
+        <ul class="list-group">
+            <li class="list-group-item active"> Employee Information </li>
+            <li class="list-group-item active"> Employee ID : <b>@Model.EmployeeID</b> </li>
+            <li class="list-group-item active"> Employee Name : <b>@Model.Name</b> </li>
+            <li class="list-group-item active"> Employee Department : <b>@Model.DepartmentID</b> </li>
+
+        </ul>
+    }
+
+
+
+
+
+</div>
