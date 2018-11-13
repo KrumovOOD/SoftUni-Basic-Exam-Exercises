@@ -1,0 +1,30 @@
+﻿@using FirstWebAplication.Model
+@model EmployeeViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+
+
+
+<div class="container" style="width:40%;margin-top:2%">
+
+    @using (Html.BeginForm("SaveRecord", "HtmlHelper", FormMethod.Post))
+    {
+        @Html.DropDownListFor(x => x.DepartmentId, ViewBag.NewList as SelectList, "--- Select ---", new { @class = "form-control" })
+
+        @Html.TextAreaFor(model => model.Name, new { @class = "form-control", @placeholder = "Name" })
+        @Html.TextAreaFor(model => model.Department, new { @class = "form-control", @placeholder = "Department" })
+
+        <div class="checkbox">
+
+        </div>
+        <input type="submit" value="Submit" class="btn btn-block btn-primary" />
+
+    }
+
+</div>
+

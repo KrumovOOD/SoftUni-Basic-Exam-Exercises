@@ -1,0 +1,26 @@
+﻿@using FirstWebAplication.Model
+@model  List<EmployeeViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<div class="container" style="width:30% ;margin-top:2%">
+
+    @if (Model != null)
+    {
+        <ul class="list-group">
+            @foreach (var item in Model)
+            {
+                <li class="list-group-item">
+                    <a class="btn btn-block btn-primary" href="/HyperLink/EmployeeDetail?id=@item.Id">@item.Name</a>
+                </li>
+            }
+        </ul>
+
+    }
+
+
+</div>

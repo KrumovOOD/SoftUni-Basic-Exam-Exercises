@@ -16,10 +16,10 @@ namespace FirstWebAplication.Controllers
             EmployeeFirstTest employee = new EmployeeFirstTest();
 
 
-           employeeList.Add(new EmployeeFirstTest { EmployeeID = 1, Name = "Dido", DepartmentID = "Transport" });
-           employeeList.Add(new EmployeeFirstTest { EmployeeID = 2, Name = "Marty", DepartmentID = "IT" });
-           employeeList.Add(new EmployeeFirstTest { EmployeeID = 3, Name = "John", DepartmentID = "Transport" });
-           employeeList.Add(new EmployeeFirstTest { EmployeeID = 4, Name = "Mark", DepartmentID = "IT" });
+           employeeList.Add(new EmployeeFirstTest { Id = 1, Name = "Dido", Department = "Transport" });
+           employeeList.Add(new EmployeeFirstTest { Id = 2, Name = "Marty", Department = "IT" });
+           employeeList.Add(new EmployeeFirstTest { Id = 3, Name = "John", Department = "Transport" });
+           employeeList.Add(new EmployeeFirstTest { Id = 4, Name = "Mark", Department = "IT" });
 
 
 

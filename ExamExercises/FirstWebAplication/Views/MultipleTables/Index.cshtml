@@ -1,0 +1,36 @@
+﻿@model  IEnumerable<FirstWebAplication.Model.EmployeeViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<div class="container" style="width:60%;margin-top:2%">
+    @if (Model != null)
+    {
+        <table class="table table-striped ">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Department</th>
+            </tr>
+
+            <tbody>
+
+
+                @foreach (var name in Model)
+                {
+                    <tr>
+                        <td>@name.Id</td>
+                        <td>@name.Name</td>
+                        <td>@name.Department</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    </div>
+
+

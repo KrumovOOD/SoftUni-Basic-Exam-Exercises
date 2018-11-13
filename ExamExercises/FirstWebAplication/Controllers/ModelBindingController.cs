@@ -15,13 +15,13 @@ namespace FirstWebAplication.Controllers
         {
            
             FirstWebAplicationDatabaseEntities db = new FirstWebAplicationDatabaseEntities();
-            Employee employee = db.Employees.SingleOrDefault(x => x.EmployeeID == 2);
+            Employee employee = db.Employees.SingleOrDefault(x => x.Id == 1);
 
             Model.EmployeeViewModel viewModel = new Model.EmployeeViewModel();
 
-            viewModel.EmployeeID = employee.EmployeeID;
+            viewModel.Id = employee.Id;
             viewModel.Name = employee.Name;
-            viewModel.DepartmentID = employee.DepartmentID;
+            viewModel.Department = employee.Department;
 
 
 

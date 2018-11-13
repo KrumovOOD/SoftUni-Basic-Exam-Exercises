@@ -14,8 +14,9 @@ namespace FirstWebAplication.Models
     
     public partial class Employee
     {
-        public int EmployeeID { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public string DepartmentID { get; set; }
+        public string Department { get; set; }
+        public int DepartmentId { get; set; }
     }
 }
